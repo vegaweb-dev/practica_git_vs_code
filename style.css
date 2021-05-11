@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+
+
+
+
+ul{list-style-type: none;
+   }
+.row{display: flex;
+     flex-wrap: nowrap;}
+.box{width: 50%;
+    }   
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+}  
+
+
+
+.container{
+           padding-top: 32px;
+           padding-bottom: 32px;
+           display: flex;
+           justify-content: space-between;
+           max-width: 1600px;
+           padding-left: 128px;
+           padding-right: 128px;
+}
